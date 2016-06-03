@@ -1,0 +1,35 @@
+{
+  "uuid": "4f775bf7-7efd-41ae-afcb-b3255c1a4b69",
+  "shortName": "Duck Game",
+  "longName": "Duck Game",
+  "companyName": "Floran Berthaud",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt", "chalk"],
+  "enableMultiJS": true,
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "bitmap",
+        "name": "IMAGE_GROUND",
+        "file": "images/ground.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "IMAGE_DUCK",
+        "file": "images/duck.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "IMAGE_EYES",
+        "file": "images/eyes.png"
+      }
+  ]
+  }
+}
